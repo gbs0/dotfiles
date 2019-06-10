@@ -49,3 +49,5 @@
 [user]
 	email = gabriel@lewagon.org
 	name = gabriel schiavo
+[sendpack]
+	sideband = true

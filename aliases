@@ -15,3 +15,6 @@ alias gb="git branch"
 alias ga="git add"
 alias gp="git push"
 alias gc="git commit"
+
+# Jupyter Notebook
+alias jp="jupyter notebook"

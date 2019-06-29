@@ -7,16 +7,14 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 
 # Git
-alias gut="git push origin master"
 alias gcqm="git commit -m"
-alias gc="git checkout"
+alias gcc="git checkout"
 alias gst="git status"
 alias gb="git branch"
 alias ga="git add"
 alias gp="git push"
-alias gcc="git commit"
+alias gc="git commit"
 alias gpom="git push origin master"
-
 
 # Jupyter Notebook
 alias jp="jupyter notebook"

@@ -8,7 +8,7 @@ alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 
 # Git
 alias gcqm="git commit -m"
-alias gcc="git checkout"
+alias gco="git checkout"
 alias gst="git status"
 alias gb="git branch"
 alias ga="git add"

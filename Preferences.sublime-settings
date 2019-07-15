@@ -1,10 +1,11 @@
 {
-	"color_scheme": "Packages/ayu/ayu-light.sublime-color-scheme",
-	"font_size": 15,
+	"color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+	"font_size": 18,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"tab_size": 2,
-	"theme": "Material Primer Light.sublime-theme"
+	"save_on_focus_lost": true,
+	"theme": "Material Spacegray Light.sublime-theme"
 }

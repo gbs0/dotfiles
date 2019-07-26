@@ -1,4 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
+# fortune | cowsay 
 
 # You can change the theme with another one:
 #   https://github.com/robbyrussell/oh-my-zsh/wiki/themes

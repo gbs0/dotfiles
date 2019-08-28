@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Solarized Light.tmTheme",
 	"font_size": 18,
 	"ignored_packages":
 	[
@@ -7,5 +7,5 @@
 	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "Material Spacegray Light.sublime-theme"
+	"theme": "ayu-mirage.sublime-theme"
 }

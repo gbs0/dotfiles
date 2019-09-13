@@ -19,3 +19,6 @@ alias gpo="git push origin"
 
 # Jupyter Notebook
 alias jp="jupyter notebook"
+
+#Cheat.sh
+alias smartcat="cht.sh"

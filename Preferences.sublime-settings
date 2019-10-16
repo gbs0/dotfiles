@@ -1,7 +1,7 @@
 {
 	"auto_indent": true,
 	"color_scheme": "Packages/Materialize/schemes/Material Solarized Light.tmTheme",
-	"font_size": 21,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

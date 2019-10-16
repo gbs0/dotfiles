@@ -20,5 +20,8 @@ alias gauto="git add . && git commit -m 'automatted commit' && git push origin m
 # Jupyter Notebook
 alias jp="jupyter notebook"
 
-#Cheat.sh
+# Cheat.sh
 alias smartcat="cht.sh"
+
+# JetBrains 
+alias rider="open -a Rider2017.3"

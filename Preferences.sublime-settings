@@ -1,7 +1,7 @@
 {
 	"auto_indent": true,
 	"color_scheme": "Packages/Materialize/schemes/Material Solarized Light.tmTheme",
-	"font_size": 21,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -18,6 +18,6 @@
 	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"theme": "ayu-light.sublime-theme",
+	"theme": "Material Brogrammer.sublime-theme",
 	"trim_automatic_white_space": true
 }

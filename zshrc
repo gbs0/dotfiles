@@ -53,4 +53,7 @@ prompt spaceship
 SPACESHIP_PROMPT_SEPARATE_LINE='false'
 SPACESHIP_PROMPT_ADD_NEWLINE='false'
 SPACESHIP_GIT_STATUS_UNTRACKED='≈'
-SPACESHIP_GIT_STATUS_MODIFIED='≡'
+SPACESHIP_GIT_STATUS_MODIFIED='≡'export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"

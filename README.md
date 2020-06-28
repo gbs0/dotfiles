@@ -9,9 +9,22 @@ This repository is used by [Le Wagon](https://www.lewagon.com) students during o
 
 
 ## Hack MacOSX Default Settings
-**Show System Info at the Login Screen**
+#### Login Screen
+**Show System Info at the Login Screen:**
 ```
   sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+```
+
+#### System Default Configs
+**Disable creation of Metadata Files on Network Volumes (avoids creation of .DS_Store and AppleDouble files.)**
+```
+  defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+  defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+```
+
+**Add a message to the login screen:**
+```
+  sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Your Message"
 ```
 
 **Always Show Hidden Files in the Finder:**

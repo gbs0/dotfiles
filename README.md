@@ -25,3 +25,7 @@ This repository is used by [Le Wagon](https://www.lewagon.com) students during o
   Dock
 ```
 
+**Trackpad scaling factor (Used for 1080p + resolutions)**
+```
+  defaults write com.apple.trackpad.scaling -float 10
+```

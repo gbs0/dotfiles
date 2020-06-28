@@ -60,3 +60,6 @@ This repository is used by [Le Wagon](https://www.lewagon.com) students during o
 
 For more cli commands go to:
 https://ss64.com/osx/syntax-defaults.html
+
+And also, I highly recomend this book about all MACOSX settings:
+https://books.google.com.br/books?id=2r7zCQAAQBAJ&pg=PT289#v=onepage&q&f=false

@@ -9,3 +9,24 @@ alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 # Git
 alias gcom='git commit -m'
 alias gpom='git push origin master'
+
+#Zsh reload
+alias reload!="source ~/.zshrc"
+
+# Git
+alias gcqm="git commit -m"
+alias gco="git checkout"
+alias gst="git status"
+alias gb="git branch"
+alias ga="git add"
+alias gp="git push"
+alias gc="git commit"
+alias gpom="git push origin master"
+alias gauto="git add . && git commit -m 'automatted commit' && git push origin master"
+
+# Jupyter Notebook
+alias jp="jupyter notebook"
+
+#Cheat.sh
+alias smartcat="cht.sh"
+>>>>>>> b363aef3c026b5315dfc34290f1b0484e71f13f6

@@ -48,4 +48,11 @@
   mergeoptions = --no-edit
 [user]
 	email = gabrielschiavo0@gmail.com
-	name = "Gabriel "
+	name = Gabriel Schiavo
+[sendpack]
+	sideband = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

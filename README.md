@@ -29,7 +29,7 @@
 
 **Disable startup sound**
 ```
-sudo nvram SystemAudioVolume=%80
+sudo nvram SystemAudioVolume=%01
 
 # To enable again just use: 
 

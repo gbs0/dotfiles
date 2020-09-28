@@ -1,5 +1,3 @@
-This repository is used by [Le Wagon](https://www.lewagon.com) students during our 9-week [coding bootcamp](https://www.lewagon.com).
-
 ## Toolset
 
 - [oh-my-zsh](http://ohmyz.sh/)
@@ -9,7 +7,9 @@ This repository is used by [Le Wagon](https://www.lewagon.com) students during o
 
 
 ## Hack MacOSX Default Settings
+
 #### Login Screen
+
 **Show System Info at the Login Screen:**
 ```
   sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
@@ -26,7 +26,18 @@ This repository is used by [Le Wagon](https://www.lewagon.com) students during o
 ```
 
 #### System Default Configs
+
+**Disable startup sound**
+```
+sudo nvram SystemAudioVolume=%80
+
+# To enable again just use: 
+
+sudo nvram -d SystemAudioVolume
+```
+
 **Disable creation of Metadata Files on Network Volumes (avoids creation of .DS_Store and AppleDouble files.)**
+
 ```
   defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
   defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true

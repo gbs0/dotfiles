@@ -47,7 +47,7 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = gabrielschiavo0@gmail.com
+	email = gabriel.penha@agrotools.com.br
 	name = Gabriel Schiavo
 [sendpack]
 	sideband = true

@@ -7,7 +7,7 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 
 #Zsh reload
-alias rln="source ~/.zshrc"
+alias reload!="source ~/.zshrc"
 
 # Git
 alias ga="git add"
@@ -26,3 +26,9 @@ alias jp="jupyter notebook"
 
 #Cheat.sh
 alias smartcat="cht.sh"
+
+#Clang GCC complete compile
+alias gag="gcc -Wall -Wextra -Werror *.c && ./main.out"
+
+#Norminette Linter
+alias norma="norminette -R CheckForbiddenSourceHeader"

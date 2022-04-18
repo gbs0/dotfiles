@@ -31,4 +31,4 @@ alias smartcat="cht.sh"
 alias gag="gcc -Wall -Wextra -Werror *.c -o main.out && ./main.out"
 
 #Norminette Linter
-alias norma="norminette -R CheckForbiddenSourceHeader"
+alias norma="norminette -R CheckForbiddenSourceHeader #{$1} | grep -E '^(Error|Warning)"

@@ -3,7 +3,7 @@
   diff = auto
   interactive = auto
   status = auto
-  ui = auto
+	ui = auto
 
 [color "branch"]
   current = green

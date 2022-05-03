@@ -28,7 +28,7 @@ alias jp="jupyter notebook"
 alias smartcat="cht.sh"
 
 #Clang GCC complete compile
-alias gag="gcc -Wall -Wextra -Werror *.c -o main.out && ./main.out"
+alias gag="gcc -Wall -Wextra -Werror=unused-but-set-variable *.c -o main.out && ./main.out"
 
 #Norminette Linter
-alias norma="norminette -R CheckForbiddenSourceHeader"
+alias norma="norminette -R CheckForbiddenSourceHeader  #{$1} | grep -E '^(Error|Warning)'"

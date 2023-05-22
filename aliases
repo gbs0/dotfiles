@@ -14,12 +14,12 @@ alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
 alias gd="git diff"
-alias gp="git push"
 alias gco="git checkout"
 alias gst="git status"
 alias gcm="git commit -m"
 alias gpom="git push origin \"$(git rev-parse --abbrev-ref HEAD)\""
 alias gauto="git add . && git commit -m 'automatted commit' && git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+alias gpp="git pull origin \"$(git rev-parse --abbrev-ref HEAD)\""
 
 # Jupyter Notebook
 alias jp="jupyter notebook"

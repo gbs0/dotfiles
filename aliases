@@ -19,7 +19,7 @@ alias gco="git checkout"
 alias gst="git status"
 alias gcm="git commit -m"
 alias gpom="git push origin $branch"
-alias gauto="git add . && git commit -m 'automated commit' && git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
+alias gauto="git add . && git commit -m 'automated commit' && git push --set-upstream origin $branch"
 alias gpp="git pull origin $branch"
 
 # Jupyter Notebook

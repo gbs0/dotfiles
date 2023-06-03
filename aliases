@@ -10,7 +10,10 @@ alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 alias reload!="source ~/.zshrc"
 
 # Git
-branch=$(git rev-parse --abbrev-ref HEAD)
+if [[ -d .git ]]; then
+  branch="$(git rev-parse --abbrev-ref HEAD)"
+fi
+
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
@@ -18,9 +21,9 @@ alias gd="git diff"
 alias gco="git checkout"
 alias gst="git status"
 alias gcm="git commit -m"
-alias gpom="git push origin $branch"
-alias gauto="git add . && git commit -m 'automated commit' && git push --set-upstream origin $branch"
-alias gpp="git pull origin $branch"
+alias gpom="git push origin \"$branch\""
+alias gauto="git add . && git commit -m 'automated commit' && git push --set-upstream origin \"$branch\""
+alias gpp="git pull origin \"$branch\""
 
 # Jupyter Notebook
 alias jp="jupyter notebook"

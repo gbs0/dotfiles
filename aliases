@@ -24,15 +24,21 @@ alias gcm="git commit -m"
 alias gpom="git push origin \"$branch\""
 alias gauto="git add . && git commit -m 'automated commit' && git push --set-upstream origin \"$branch\""
 alias gpp="git pull origin \"$branch\""
+alias gitignore-create='touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status'
 
 # Jupyter Notebook
 alias jp="jupyter notebook"
 
-#Cheat.sh
+# Cheat.sh
 alias smartcat="cht.sh"
 
-#Clang GCC complete compile
+# Clang GCC complete compile
 alias gag="gcc -Wall -Wextra -Werror=unused-but-set-variable *.c -o main.out && ./main.out"
 
-#Norminette Linter
+# Norminette Linter
 alias norma="norminette -R CheckForbiddenSourceHeader #{$1} | grep -E '^(Error|Warning)'"
+
+# Reset node_modules directory with dependecies
+alias remove-node-modules="find . -name "node_modules" -type d -prune -exec rm -rf '{}' +"
+# Remove unecessary folder (only for current directory)
+alias remove-ds-store="find . -name ".DS_Store" -type d -prune -exec rm -rf '{}' +"

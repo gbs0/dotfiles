@@ -44,4 +44,7 @@ alias remove-node-modules="find . -name "node_modules" -type d -prune -exec rm -
 
 # Remove unecessary folder (only for current directory)
 alias remove-ds-store="find . -name ".DS_Store" -type d -prune -exec rm -rf '{}' +"
-alias rm-ds-store="rm -rf .DS_Store"
+# Remove .DS_Store and display git status
+alias rm-ds-store="rm -rf .DS_Store && git status"
+# Remove all .DS_Store directories recursively
+alias rf-ds-store="find . -name ".DS_Store" -type f -delete -print -o -type d -name ".DS_Store" -exec rm -rf {} + 2>/dev/null"

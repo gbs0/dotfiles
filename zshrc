@@ -20,6 +20,9 @@ unalias lt # we need `lt` for https://github.com/localtunnel/localtunnel
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Load rbenv if installed
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
+# eval "$(rbenv init - zsh)"
 export PATH="${HOME}/.rbenv/bin:${PATH}"
 type -a rbenv > /dev/null && eval "$(rbenv init -)"
 

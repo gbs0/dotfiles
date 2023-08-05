@@ -44,6 +44,8 @@
         "public/packs": true,
         "tmp": true
     },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -84,4 +86,6 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": 2,
 }

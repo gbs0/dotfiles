@@ -9,5 +9,10 @@
       "key": "cmd+shift+v",
       "command": "pasteAndIndent.action",
       "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "alt+c",
+      "command": "-aws.codeWhisperer",
+      "when": "CODEWHISPERER_ENABLED && editorTextFocus"
     }
   ]

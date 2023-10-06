@@ -87,5 +87,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
     "workbench.sideBar.location": "right",
-    "window.zoomLevel": 2,
+    "aws.suppressPrompts": {
+      "codeWhispererNewWelcomeMessage": true
+    },
 }

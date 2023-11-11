@@ -14,5 +14,9 @@
       "key": "alt+c",
       "command": "-aws.codeWhisperer",
       "when": "CODEWHISPERER_ENABLED && editorTextFocus"
+    },
+    {
+      "key": "ctrl+c",
+      "command": "aws.codeWhisperer.enableCodeSuggestions"
     }
   ]

@@ -89,3 +89,17 @@ export PATH="/usr/local/opt/postgresql@12/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@14/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@12/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/gbs0/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/gbs0/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/gbs0/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/gbs0/google-cloud-sdk/completion.zsh.inc'; fi
+
+# bun completions
+[ -s "/Users/gbs0/.bun/_bun" ] && source "/Users/gbs0/.bun/_bun"
+
+[[ -s "/Users/gbs0/.gvm/scripts/gvm" ]] && source "/Users/gbs0/.gvm/scripts/gvm"
+
+# Langflow setup
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YESexport PATH="/usr/local/opt/postgresql@12/bin:$PATH"

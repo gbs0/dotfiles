@@ -28,5 +28,9 @@
       "key": "alt+c",
       "command": "-aws.codeWhisperer",
       "when": "aws.codewhisperer.connected && editorTextFocus || editorTextFocus && isCloud9"
+    },
+    {
+      "key": "cmd+i",
+      "command": "composerMode.agent"
     }
   ]

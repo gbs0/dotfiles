@@ -45,5 +45,7 @@ alias rm-ds-store="rm -rf .DS_Store && git status"
 alias rf-ds-store="find . -name ".DS_Store" -type f -delete -print -o -type d -name ".DS_Store" -exec rm -rf {} + 2>/dev/null"
 
 # Discord
-alias discord="/Applications/Discord.app"
+alias discord="open /Applications/Discord.app"
 
+# Cursor
+alias cursor="open /Applications/Cursor.app"

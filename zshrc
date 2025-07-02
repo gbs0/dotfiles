@@ -103,3 +103,5 @@ if [ -f '/Users/gbs0/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/gbs0
 
 # Langflow setup
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YESexport PATH="/usr/local/opt/postgresql@12/bin:$PATH"
+
+. "$HOME/.local/bin/env"

@@ -14,5 +14,23 @@
       "key": "alt+c",
       "command": "-aws.codeWhisperer",
       "when": "CODEWHISPERER_ENABLED && editorTextFocus"
+    },
+    {
+      "key": "ctrl+c",
+      "command": "aws.codeWhisperer.enableCodeSuggestions"
+    },
+    {
+      "key": "f13",
+      "command": "aws.codeWhisperer",
+      "when": "aws.codewhisperer.connected && editorTextFocus || editorTextFocus && isCloud9"
+    },
+    {
+      "key": "alt+c",
+      "command": "-aws.codeWhisperer",
+      "when": "aws.codewhisperer.connected && editorTextFocus || editorTextFocus && isCloud9"
+    },
+    {
+      "key": "cmd+i",
+      "command": "composerMode.agent"
     }
   ]

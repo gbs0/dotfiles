@@ -80,7 +80,7 @@ export EDITOR=code
 # autoload -U promptinit; promptinit
 # prompt spaceship
 
-# SPACESHIP_PROMPT_SEPARATE_LINE='false'
+# SPACESHIP_PROMPT_SEPARATE_LINE='false '
 # SPACESHIP_PROMPT_ADD_NEWLINE='false'
 # SPACESHIP_GIT_STATUS_UNTRACKED='≈'
 # SPACESHIP_GIT_STATUS_MODIFIED='≡'
@@ -106,3 +106,8 @@ if [ -f '/Users/gbs0/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/gbs0
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YESexport PATH="/usr/local/opt/postgresql@12/bin:$PATH"
 
 . "$HOME/.local/bin/env"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/gbs0/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions

@@ -20,7 +20,7 @@ alias gpom="git push origin master"
 alias gauto="git add . && git commit -m 'automated commit' && git push --set-upstream origin master"
 alias gpp="git pull origin master"
 alias gitignore-create='touch .gitignore && echo -e "node_modules/\n.env\n.DS_Store\n*.dSYM/\n*.su\n*.idb\n*.pdb" >> .gitignore && git rm -r --cached node_modules ; git status && cat .gitignore'
-
+alias push="git push origin HEAD"w
 
 # Jupyter Notebook
 alias jp="jupyter notebook"

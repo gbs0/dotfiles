@@ -1,0 +1,9 @@
+Match host ssh-*.orulo.app exec "cloudflared access ssh-gen --hostname %h"
+
+Host ssh-*.orulo.app
+  User ubuntu
+  ProxyCommand cloudflared access ssh --hostname %h
+  IdentityFile ~/.cloudflared/%h-cf_key
+  CertificateFile ~/.cloudflared/%h-cf_key-cert.pub
+  IdentitiesOnly yes
+  StrictHostKeyChecking accept-new

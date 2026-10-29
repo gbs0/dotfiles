@@ -111,3 +111,8 @@ fpath=(/Users/gbs0/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+# Funcion to fetch and checkout a branch, used in orulo QA
+qa() {
+    git fetch origin "$1" && git checkout "$1"
+}

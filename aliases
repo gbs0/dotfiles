@@ -23,7 +23,6 @@ alias gitignore-create='touch .gitignore && echo -e "node_modules/\n.env\n.DS_St
 alias push="git push origin HEAD"
 alias pull="git pull origin HEAD"
 alias stash="git stash"
-alias qa="git fetch origin <BRANCH_NAME> && git checkout <BRANCH_NAME>"
 # Jupyter Notebook
 alias jp="jupyter notebook"
 
